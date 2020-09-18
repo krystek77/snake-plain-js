@@ -1,0 +1,43 @@
+/* oswald-300 - latin-ext_latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../assets/fonts/oswald-v35-latin-ext_latin-300.eot'); /* IE9 Compat Modes */
+  src: local(''),
+    url('../assets/fonts/oswald-v35-latin-ext_latin-300.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('../assets/fonts/oswald-v35-latin-ext_latin-300.woff2')
+      format('woff2'),
+    /* Super Modern Browsers */
+      url('../assets/fonts/oswald-v35-latin-ext_latin-300.woff') format('woff'),
+    /* Modern Browsers */
+      url('../assets/fonts/oswald-v35-latin-ext_latin-300.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */
+      url('../assets/fonts/oswald-v35-latin-ext_latin-300.svg#Oswald')
+      format('svg'); /* Legacy iOS */
+}
+
+/* open-sans-regular - latin-ext_latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../assets/fonts/open-sans-v17-latin-ext_latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+    url('../assets/fonts/open-sans-v17-latin-ext_latin-regular.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */
+      url('../assets/fonts/open-sans-v17-latin-ext_latin-regular.woff2')
+      format('woff2'),
+    /* Super Modern Browsers */
+      url('../assets/fonts/open-sans-v17-latin-ext_latin-regular.woff')
+      format('woff'),
+    /* Modern Browsers */
+      url('../assets/fonts/open-sans-v17-latin-ext_latin-regular.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */
+      url('../assets/fonts/open-sans-v17-latin-ext_latin-regular.svg#OpenSans')
+      format('svg'); /* Legacy iOS */
+}

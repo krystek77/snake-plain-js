@@ -1,0 +1,7 @@
+{
+    "extends": ["stylelint-prettier/recommended"],
+    "rules":{
+        "color-no-invalid-hex":true,
+        "block-no-empty":true
+    }
+}
