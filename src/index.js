@@ -6,6 +6,9 @@ import Canvas from './board';
 import Snake from './snake';
 import Apple from './apple';
 import Music from './music';
+import fxEat from './assets/sounds/snakeatt.mp3';
+import fxHit from './assets/sounds/snakehit2.mp3';
+import fxMusic from './assets/sounds/rattlesnakerattle.mp3';
 
 class Game {
   constructor() {
@@ -28,13 +31,9 @@ class Game {
     this.snake = new Snake(this.canvas, this.boardCoordinates, this.boardArray);
     this.apple = new Apple(this.canvas, this.boardCoordinates, this.boardArray);
     this.keyboard = new Keyboard(this.snake);
-    this.fxEatSnake = new Audio('./assets/sounds/snakeatt.mp3');
-    this.fxHitSnake = new Audio('./assets/sounds/snakehit2.mp3');
-    this.fxMusic = new Music(
-      './assets/sounds/rattlesnakerattle.mp3',
-      this.tempo,
-      this.FPS,
-    );
+    this.fxEatSnake = new Audio(fxEat);
+    this.fxHitSnake = new Audio(fxHit);
+    this.fxMusic = new Music(fxMusic, this.tempo, this.FPS);
     this.newGame();
   }
 
